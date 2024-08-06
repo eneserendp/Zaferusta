@@ -9,12 +9,11 @@ interface HeroItemProps{
           label2: string;
           label3: string;
           src: string;
-          text1: string;
-          text2: string;
+        
 }
 
 const  HeroItem: React.FC<HeroItemProps>=({
-    label1,label2, label3,src, text1, text2
+    label1,label2, label3,src
 })=> {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2'>
